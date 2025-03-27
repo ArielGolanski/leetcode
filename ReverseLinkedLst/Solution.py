@@ -1,7 +1,6 @@
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         l = head
-        stack = []
         if l == None:
             return None
         elif l.next == None:
